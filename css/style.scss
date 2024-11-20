@@ -1,7 +1,6 @@
-
 body {
     background-color: #ff91008e;
-
+    
     header {
 
         .header {
@@ -22,7 +21,7 @@ body {
         }
     }
 
-    .navbar {
+    .navbar1 {
         background: #E23408;
         position: sticky;
         top: 0;
@@ -51,6 +50,10 @@ body {
         }
     }
 
+    .navbar2 {
+        display: none;
+    }
+
     main {
 
 
@@ -71,14 +74,18 @@ body {
                 .cards {
                     .card {
                         width: 25%;
+
                         h5 {
                             padding-left: 1rem;
                         }
+
                         .card-body {
                             height: fit-content;
+
                             #info_button {
                                 background-color: #525C0B;
                             }
+
                             #order_button {
                                 background-color: #E23408;
                                 border: none;
@@ -112,18 +119,47 @@ body {
     body {
 
         header {
+            display: none;
+
             img {
                 width: 60%;
                 height: auto;
             }
         }
 
-        .navbar {
+        .navbar1 {
+            display: none;
+        }
+
+        .navbar2 {
+            display: block;
+            background-color: #E23408;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 2rem ;
+           
+            position: sticky;
+            top: 0;
+            z-index: 1;
+                img {
+                    transform: scale(1.7);
+                }
+                .navbar-toggler {
+                    height: 3rem;
+                }
+                .nav-item {
+                    .nav-link {
+                        font-size: 1.5rem;
+                        color: white;
+                    }
+
+                    .nav-link:hover {
+                        transform: scale(1.5);
+
+                    }
+                }
             
-            .nav {
-                flex-direction: column;
-                align-items: center;
-            }
+
         }
 
         main {
@@ -138,26 +174,32 @@ body {
                     h2 {
                         font-size: 3rem;
                     }
+
                     .cards {
                         flex-direction: column;
                         align-items: center;
-                        .card{
+
+                        .card {
                             width: 90%;
                         }
                     }
                 }
             }
         }
+
         footer {
             .cont {
                 text-align: center;
                 flex-direction: column;
+
                 .contact {
                     font-size: 1.4rem;
                     padding: 1rem;
                 }
+
                 .map {
                     width: 80%;
+
                     iframe {
                         width: 100%;
                     }
@@ -166,5 +208,5 @@ body {
         }
 
     }
-   
+
 }

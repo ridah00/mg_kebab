@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MG KEBAB</title>
+  <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+  
+  <link href="https://fonts.cdnfonts.com/css/luminari" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  
+</head>
+<body>
+  <header>
+    <div class="header d-flex align-items-center">
+      <h1 id="logo" class="text-center pt-1">MG KEBAB </h1>
+      <img src="./img/logo.png" alt="logo">
+      
+  </header>
+  <nav id="navbar-example2" class="navbar navbar-light px-3">
+    <ul class="nav nav-pills d-flex justify-content-evenly">
+      <li class="nav-item ">
+        <a class="nav-link" href="#scrollspyEntree">Sandwish</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollPlat">Barquettes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollDessert">Dessert</a>
+      </li>
+      
+    </ul>
+  </nav>
+  <main>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+      tabindex="0">
+      <section class="categorie">
+        <h2 class="text-center" id="scrollspyEntree"> Nos Sandwishs</h2>
+        <div class="cards d-flex justify-content-evenly ">
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Sandwish Kebab</h5>
+            <img src="./img/sandwish.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">5.80 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : pain kebab, viande kebab, crudités">
+                <i class="bi bi-plus-circle-fill"> info</i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal91">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal91" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre Sandwish Kebab a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Tacos Kebab</h5>
+            <img src="./img/tacos_Kebab.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">6.20 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : feuille tacos, viande kebab, crudités">
+                <i class="bi bi-plus-circle-fill"> info </i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal92">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal92" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre Tacos kebab a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Panini Kebab</h5>
+            <img src="./img/panini_kebab.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">5.50 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : pain panini, viande kebab, crudités">
+                <i class="bi bi-plus-circle-fill"> info </i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal93">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal93" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre Panini Kebab a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="categorie">
+        <h2 class="text-center" id="scrollPlat">Barquettes</h2>
+        <div class="cards d-flex justify-content-evenly">
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Barquette de Frites</h5>
+            <img src="./img/barquettes_frite.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">2.90 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : 250 g de frites ">
+                <i class="bi bi-plus-circle-fill"> info </i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal94">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal94" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre Barquette de Frites a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Viande de Kebab</h5>
+            <img src="./img/barquette_kebab.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">2.90 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : 200 g de viande kebab">
+                <i class="bi bi-plus-circle-fill"> info </i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal95">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal95" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre Viande de Kebab a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Viande de Kebab + Frites</h5>
+            <img src="./img/barquettes.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">5.40 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : 250g de frites + 200 g de viande kebab">
+                <i class="bi bi-plus-circle-fill"> info </i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal96">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal96" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre barquette Viande de Kebab + Frites a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="categorie">
+        <h2 class="text-center" id="scrollDessert">Nos Desserts</h2>
+        <div class="cards d-flex justify-content-evenly">
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Tiramisu</h5>
+            <img src="./img/tiramisu.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">2.90 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : mascarpone, biscot, cacao en poudre, oeufs, sucre, lait">
+                <i class="bi bi-plus-circle-fill"> info </i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal97">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal97" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre Tiramisu a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Donuts</h5>
+            <img src="./img/donuts.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">1.80 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : farine, sucre, lait, levure, oeufs, beure, chocolat ">
+                <i class="bi bi-plus-circle-fill"> info </i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal98">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal98" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre Donuts a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card rounded-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h5 class="card-title">Milkshake</h5>
+            <img src="./img/milkshake.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-end">
+              <label class="price p-1">2.90 €</label>
+              <button type="button" class="btn btn-success"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : lait, chantilly, glace, vanille, sauce caramel">
+                <i class="bi bi-plus-circle-fill"> info </i>
+              </button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal99">
+                Commander
+              </button>
+              <div class="modal fade" id="exampleModal99" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Bon Appétit</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Votre Milkshake a bien été ajouté.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      <button type="button" class="btn btn-primary">Payer</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+
+    </div>
+  </main>
+  <footer>
+    <div class="cont d-flex justify-content-around align-items-center">
+      <div class="contact d-flex flex-column gap-3">
+        <i class="bi bi-telephone-fill"> <b>3936 ou au + 33 1 83 82 01 88 (hors France)</b> </i>
+        <i class="bi bi-envelope-fill"> <b> mahdjoubridah00@gmail.com</b> </i>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41443.82998094314!2d0.1203483!3d49.517756399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02fe40985f1ff%3A0x89e1a03a20457b7b!2sAfpa%20-%20Centre%20du%20Havre!5e0!3m2!1sfr!2sfr!4v1732030874081!5m2!1sfr!2sfr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+
+  <script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
+  <script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
+</body>
+
+</html>

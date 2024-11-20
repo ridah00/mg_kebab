@@ -1,6 +1,6 @@
 body {
     background-color: #ff91008e;
-    
+
     header {
 
         .header {
@@ -10,15 +10,9 @@ body {
 
         img {
             width: 15%;
-
         }
 
-        #logo {
-            font-family: 'Luminari', fantasy;
-            color: #257d85;
-            font-size: 5rem;
-            display: none;
-        }
+
     }
 
     .navbar1 {
@@ -120,11 +114,6 @@ body {
 
         header {
             display: none;
-
-            img {
-                width: 60%;
-                height: auto;
-            }
         }
 
         .navbar1 {
@@ -136,29 +125,34 @@ body {
             background-color: #E23408;
             display: flex;
             justify-content: space-between;
-            padding: 0 2rem ;
-           
+            padding: 0 1rem;
             position: sticky;
             top: 0;
             z-index: 1;
-                img {
-                    transform: scale(1.7);
-                }
-                .navbar-toggler {
-                    height: 3rem;
-                }
-                .nav-item {
-                    .nav-link {
-                        font-size: 1.5rem;
-                        color: white;
-                    }
-
-                    .nav-link:hover {
-                        transform: scale(1.5);
-
-                    }
-                }
             
+            #logo {
+                font-family: 'Brush Script MT';
+                color:white;
+                font-size: 3rem;
+                text-shadow: 0.3rem 0.3rem 0.1rem #0b292c ;
+            }
+
+            .navbar-toggler {
+                height: 3rem;
+            }
+
+            .nav-item {
+                .nav-link {
+                    font-size: 1.5rem;
+                    color: white;
+                }
+
+                .nav-link:hover {
+                    transform: scale(1.5);
+
+                }
+            }
+
 
         }
 
@@ -180,7 +174,7 @@ body {
                         align-items: center;
 
                         .card {
-                            width: 90%;
+                            width: 80%;
                         }
                     }
                 }

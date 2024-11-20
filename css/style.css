@@ -95,7 +95,7 @@ body footer iframe {
   body .navbar2 #logo {
     font-family: "Brush Script MT";
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-shadow: 0.3rem 0.3rem 0.1rem #0b292c;
   }
   body .navbar2 .navbar-toggler {
@@ -122,7 +122,10 @@ body footer iframe {
     align-items: center;
   }
   body main .scrollspy-example .categorie .cards .card {
-    width: 80%;
+    width: 90%;
+  }
+  body main .scrollspy-example .categorie .cards .card .card-body {
+    padding: 1rem 0;
   }
   body footer .cont {
     text-align: center;

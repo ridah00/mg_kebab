@@ -1,10 +1,10 @@
+
 body {
     background-color: #ff91008e;
 
     header {
 
         .header {
-
             height: 30vh;
             justify-content: center;
         }
@@ -23,7 +23,7 @@ body {
     }
 
     .navbar {
-        background: #A6692C;
+        background: #E23408;
         position: sticky;
         top: 0;
         z-index: 1;
@@ -71,9 +71,18 @@ body {
                 .cards {
                     .card {
                         width: 25%;
-
+                        h5 {
+                            padding-left: 1rem;
+                        }
                         .card-body {
                             height: fit-content;
+                            #info_button {
+                                background-color: #525C0B;
+                            }
+                            #order_button {
+                                background-color: #E23408;
+                                border: none;
+                            }
                         }
 
                         .price {
@@ -88,7 +97,7 @@ body {
     }
 
     footer {
-        background-color: #A6692C;
+        background-color: #E23408;
         border-radius: 4rem 4rem 0 0;
         padding-block: 2rem;
 
@@ -110,6 +119,7 @@ body {
         }
 
         .navbar {
+            
             .nav {
                 flex-direction: column;
                 align-items: center;
@@ -156,4 +166,5 @@ body {
         }
 
     }
+   
 }

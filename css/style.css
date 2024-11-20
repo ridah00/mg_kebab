@@ -15,7 +15,7 @@ body header #logo {
   display: none;
 }
 body .navbar {
-  background: #A6692C;
+  background: #E23408;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -49,9 +49,19 @@ body main .scrollspy-example .categorie h2 {
 body main .scrollspy-example .categorie .cards .card {
   width: 25%;
 }
+body main .scrollspy-example .categorie .cards .card h5 {
+  padding-left: 1rem;
+}
 body main .scrollspy-example .categorie .cards .card .card-body {
   height: -moz-fit-content;
   height: fit-content;
+}
+body main .scrollspy-example .categorie .cards .card .card-body #info_button {
+  background-color: #525C0B;
+}
+body main .scrollspy-example .categorie .cards .card .card-body #order_button {
+  background-color: #E23408;
+  border: none;
 }
 body main .scrollspy-example .categorie .cards .card .price {
   color: #C71464;
@@ -59,7 +69,7 @@ body main .scrollspy-example .categorie .cards .card .price {
   font-weight: bold;
 }
 body footer {
-  background-color: #A6692C;
+  background-color: #E23408;
   border-radius: 4rem 4rem 0 0;
   padding-block: 2rem;
 }

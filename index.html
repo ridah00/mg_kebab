@@ -5,19 +5,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MG KEBAB</title>
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
   <link href="https://fonts.cdnfonts.com/css/luminari" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="./css/style.css">
 
-  
+
 </head>
+
 <body>
   <header>
     <div class="header d-flex align-items-center">
-      <img src="./img/logo.png" alt="logo"></div>
-      
+      <img src="./img/logo.png" alt="logo">
+    </div>
+
   </header>
   <nav id="navbar-example2" class="navbar navbar1 navbar-light px-3">
     <ul class="nav nav-pills d-flex justify-content-evenly">
@@ -30,31 +34,32 @@
       <li class="nav-item">
         <a class="nav-link" href="#scrollDessert">Desserts</a>
       </li>
-      
+
     </ul>
   </nav>
   <!-- ############################################ -->
   <nav class="navbar navbar2 navbar-expand-lg navbar-light ">
-    
-      <img src="./img/logo_nav.png" alt="logo">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#scrollspyEntree">Sandwichs</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#scrollPlat">Barquettes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#scrollDessert">Desserts</a>
-          </li>
-        </ul>
-        
-      </div>
-   
+
+    <img src="./img/logo_nav.png" alt="logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#scrollspyEntree">Sandwichs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollPlat">Barquettes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scrollDessert">Desserts</a>
+        </li>
+      </ul>
+
+    </div>
+
   </nav>
   <!-- ############################################ -->
   <main>
@@ -68,13 +73,16 @@
             <img src="./img/sandwish.png" class="card-img-top" alt="un sandwich">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">5.80 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : pain kebab, viande kebab, crudités">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top" data-bs-content="Ingrédients : pain kebab, viande kebab, crudités">
                 <i class="bi bi-plus-circle-fill"> info</i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modalkebab">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modalkebab">
                 Commander
               </button>
-              <div class="modal fade" id="modalkebab" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modalkebab" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -98,13 +106,16 @@
             <img src="./img/tacos_Kebab.png" class="card-img-top" alt="un tacos kebab">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">6.20 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : feuille tacos, viande kebab, crudités">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top" data-bs-content="Ingrédients : feuille tacos, viande kebab, crudités">
                 <i class="bi bi-plus-circle-fill"> info </i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modaltacos">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modaltacos">
                 Commander
               </button>
-              <div class="modal fade" id="modaltacos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modaltacos" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -128,13 +139,16 @@
             <img src="./img/panini_kebab.png" class="card-img-top" alt="un panini kebab">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">5.50 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : pain panini, viande kebab, crudités">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top" data-bs-content="Ingrédients : pain panini, viande kebab, crudités">
                 <i class="bi bi-plus-circle-fill"> info </i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modalpanini">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modalpanini">
                 Commander
               </button>
-              <div class="modal fade" id="modalpanini" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modalpanini" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -163,13 +177,16 @@
             <img src="./img/barquettes_frite.png" class="card-img-top" alt="une barquette de frite">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">2.90 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : 250 g de frites ">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top" data-bs-content="Ingrédients : 250 g de frites ">
                 <i class="bi bi-plus-circle-fill"> info </i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modalfrite">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modalfrite">
                 Commander
               </button>
-              <div class="modal fade" id="modalfrite" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modalfrite" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -193,13 +210,16 @@
             <img src="./img/barquette_kebab.png" class="card-img-top" alt="une barquette de viande de kebab">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">2.90 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : 200 g de viande kebab">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top" data-bs-content="Ingrédients : 200 g de viande kebab">
                 <i class="bi bi-plus-circle-fill"> info </i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modalkebab">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modalkebab">
                 Commander
               </button>
-              <div class="modal fade" id="modalkebab" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modalkebab" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -223,13 +243,16 @@
             <img src="./img/barquettes.png" class="card-img-top" alt="une barquette de viande de kebab + frites">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">5.40 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : 250g de frites + 200 g de viande kebab">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top" data-bs-content="Ingrédients : 250g de frites + 200 g de viande kebab">
                 <i class="bi bi-plus-circle-fill"> info </i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modalkebab_frite">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modalkebab_frite">
                 Commander
               </button>
-              <div class="modal fade" id="modalkebab_frite" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modalkebab_frite" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -258,13 +281,17 @@
             <img src="./img/tiramisu.png" class="card-img-top" alt="un tiramisu">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">2.90 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : mascarpone, biscot, cacao en poudre, oeufs, sucre, lait">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top"
+                data-bs-content="Ingrédients : mascarpone, biscot, cacao en poudre, oeufs, sucre, lait">
                 <i class="bi bi-plus-circle-fill"> info </i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modaltiramisu">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modaltiramisu">
                 Commander
               </button>
-              <div class="modal fade" id="modaltiramisu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modaltiramisu" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -288,13 +315,17 @@
             <img src="./img/donuts.png" class="card-img-top" alt="une donut">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">1.80 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : farine, sucre, lait, levure, oeufs, beure, chocolat ">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top"
+                data-bs-content="Ingrédients : farine, sucre, lait, levure, oeufs, beure, chocolat ">
                 <i class="bi bi-plus-circle-fill"> info </i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modaldonut">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modaldonut">
                 Commander
               </button>
-              <div class="modal fade" id="modaldonut" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modaldonut" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -318,13 +349,16 @@
             <img src="./img/milkshake.png" class="card-img-top" alt="un milkshake">
             <div class="card-body d-flex justify-content-between align-items-end">
               <label class="price p-1">2.90 €</label>
-              <button type="button" class="btn btn-success" id="info_button"  data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Ingrédients : lait, chantilly, glace, vanille, sauce caramel">
+              <button type="button" class="btn btn-success" id="info_button" data-bs-toggle="popover"
+                data-bs-placement="top" data-bs-content="Ingrédients : lait, chantilly, glace, vanille, sauce caramel">
                 <i class="bi bi-plus-circle-fill"> info </i>
               </button>
-              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal" data-bs-target="#modalmilkshake">
+              <button type="button" class="btn btn-primary" id="order_button" data-bs-toggle="modal"
+                data-bs-target="#modalmilkshake">
                 Commander
               </button>
-              <div class="modal fade" id="modalmilkshake" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="modalmilkshake" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -362,11 +396,14 @@
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 1 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script> 
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
   </script>
 </body>
+
 </html>
